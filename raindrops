@@ -1,0 +1,22 @@
+function raindrops(i) {
+    let result = ''
+    if (i % 3 === 0) {
+        result = 'Pling'
+    } else if (i % 5 === 0){
+        result = 'Plang'
+    } else if (i % 7 === 0){
+        result = 'Plong'
+    } else if (i % 3 === 0 && i % 5 === 0){
+        result = 'PlingPlang'
+    } else if (i % 5 === 0 && i % 7 === 0){
+        result = 'PlangPlong'
+    } else if(i % 3 === 0 && i % 5 === 0 && i % 7 === 0) {
+        result = 'PlingPlongPlang'
+    } else {
+        result = i.toString()
+    }
+    return result
+}
+
+console.log(raindrops(10))
+console.log(raindrops(17))
