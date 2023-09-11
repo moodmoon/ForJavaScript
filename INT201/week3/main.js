@@ -63,6 +63,7 @@ function doSomething(activity) {
     return `${activity} is done`
 } 
 console.log(typeof doSomething)
+
 let act1 //undefined
 let act2 = null //null
 let act3 = 'JS leaning' //string
