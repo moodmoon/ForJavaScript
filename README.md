@@ -16,7 +16,7 @@
 ## Push changes to remote repository (typically remote name “origin”) 
         git push –u <remote name> <local branch name>
 ## Git Credential Storage
-• reset git credentials
-          git config --global --unset credential.helper
-• Make git forget credentials or to switch to another github account, it will flush any stored password from cache.
-          git credential-cache exit
+### reset git credentials
+        git config --global --unset credential.helper
+### Make git forget credentials or to switch to another github account, it will flush any stored password from cache.
+        git credential-cache exit
