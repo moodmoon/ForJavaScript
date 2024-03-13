@@ -17,27 +17,16 @@ let people = [
 { name: "david", surname: "Anderson" }, 
 { name: "Sophia", surname: "Clark" } ];
 
-// let result = people.filter( (names) => {
-//    people.some( (othernames) => { names.name.toLowerCase() ===  othernames.name.toLowerCase() && names !== othernames} )
-// })
-
-
-// let result = people.map( (person) => { person.name.toLowerCase() } )
-//                    .filter( (name , index , names) => { names.indexOf(name) !== index } )
-
-// let result
-
-
-
-// console.log(result); // ["john", "olivia", "david"]
-
 let arr = []
 people.forEach(element => {
-  arr.push(element.name.toLowerCase())
-
+  if (element.name.toLowerCase() === element.name.toLowerCase()) {
+    arr.push(element.name.toLowerCase())
+  }
+//arr.push(element.name.toLowerCase())
 })
-let result = arr => arr.filter((item, index) => arr.indexOf(item) !== index && arr.lastIndexOf(item) === index);
 
-console.log(countElements(arr))
+
+
+console.log(arr)
 //console.log(result); 
 // ["john", "olivia", "david"]

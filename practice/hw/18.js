@@ -19,7 +19,7 @@
 // 68
 // Invalid mode. Please use "FtoC" or "CtoF"
 
-function convertTemperature(temperature,mode){
+function convertTemperature(temperature , mode){
     if (mode === 'FtoC'){
         return (temperature - 32) * 5/9
     }

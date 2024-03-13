@@ -37,4 +37,3 @@ function removebtnAll() {
 }
 
 init();
-

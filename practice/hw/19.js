@@ -7,14 +7,12 @@
 
 function sumPositiveNumbers(numbers) {
     let sum = 0
-    numbers.forEach(element => {
-        if (element > 0){
-        sum = sum + element
+    numbers.forEach(num => {
+        //console.log(num)
+        if (num > 0) {
+            sum = sum + num
         }
     })
-    if (numbers === 0 || numbers < 0) {
-        return 0
-    }
     return sum
 }
 

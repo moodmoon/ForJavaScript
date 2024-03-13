@@ -6,14 +6,12 @@
     let mixedArray = [42, "hello", {name: 'Joe', surname: 'Doe'}, true,56,false, 
     {name: 'John', surname: 'Smith'}, {name: 'Joy', surname: 'Stein'}];
 
-    // Insert your code here
-
-    mixedArray.forEach(element => {
+    mixedArray.forEach( (element) => {
         if (typeof element === 'object')
         console.log(element)
     })
 
-
+    
     // Output:
     // {name: "Joe ", surname: “Doe}
     // {name: "John ", surname: “Smith”}

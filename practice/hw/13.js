@@ -1,6 +1,7 @@
 13. // Functions / Arrays / Arrays Functions
     // Instruction:
-    // - Write a function reverseArray(arrayValue) to reverse an array. Initiate code:
+    // - Write a function reverseArray(arrayValue) to reverse an array. 
+    // Initiate code:
     // let numbers = [1, 1, 3, 8, 21, 8, 13, 3, 8, 7];
 // Insert your code here
 // return value will be [7, 8, 3, 13, 8, 21, 8, 3, 1, 1]
@@ -8,7 +9,18 @@
 let numbers = [1, 1, 3, 8, 21, 8, 13, 3, 8, 7];
 
 function reverseArray(arrayValue){
-    return arrayValue.reverse()
+    let arr = []
+    for (let i = 1; i <= arrayValue.length; i++) {
+        arr.push(arrayValue[arrayValue.length - i])
+    }
+    return arr
 }
 
+// function reverseArray(arrayValue){
+//     //return arrayValue.reverse()
+// }
+
 console.log(reverseArray(numbers))
+
+
+
