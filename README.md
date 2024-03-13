@@ -20,3 +20,6 @@
         git config --global --unset credential.helper
 ### Make git forget credentials or to switch to another github account, it will flush any stored password from cache.
         git credential-cache exit
+
+### JavaScript implicit type conversions
+![ExpressionsOperatorsControlStructures-9](https://github.com/moodmoon/ForJavaScript/assets/111360164/afa29d0b-7386-4bdf-a7a5-f9e2cf6aca50)
